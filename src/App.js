@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from 'react';
 
-import { CharacterListView } from "./views";
-import "./styles/App.css";
+import { CharacterListView } from './views';
+import './styles/App.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return <CharacterListView />;
   }
